@@ -1,0 +1,19 @@
+{
+  "name": "lexicography-sorting",
+  "version": "0.0.0",
+  "description": "Sort an array of strings based on an arbitrary lexicographic ordering.",
+  "scripts": {
+    "lint": "jshint --exclude-path .gitignore . && jscs .",
+    "precommit": "npm run lint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/ch0sen1/lexicography-sorting.git"
+  },
+  "engines": {
+    "node": ">= 4.0.0"
+  },
+  "author": "Oscar Paramo",
+  "license": "MIT",
+  "dependencies": {}
+}
