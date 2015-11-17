@@ -4,7 +4,8 @@
   "description": "Sort an array of strings based on an arbitrary lexicographic ordering.",
   "scripts": {
     "lint": "jshint --exclude-path .gitignore . && jscs .",
-    "precommit": "npm run lint"
+    "precommit": "npm run lint",
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,7 @@
   },
   "author": "Oscar Paramo",
   "license": "MIT",
-  "dependencies": {}
+  "dependencies": {
+    "underscore": "1.8.3"
+  }
 }
